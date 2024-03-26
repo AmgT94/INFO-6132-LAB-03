@@ -1,11 +1,11 @@
-# Sample Snack app
+# Financial App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a simple financial app built using React Native. The app helps users manage their expenses and track their financial transactions conveniently on their mobile devices.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **Tab Navigation**: The app utilizes a tab-based navigation system with two tabs: Transactions and Summary.
+- **Stack Navigation**: Within the Transactions tab, users can navigate between a list of transactions and a detailed view of each transaction.
+- **Data Handling**: Transaction data is managed using Redux for state management, ensuring smooth data flow between screens.
+- **UI/UX Design**: The app features an intuitive and user-friendly interface designed with React Native components for responsiveness and ease of use.
+- **Navigation Flow**: React Navigation is used to ensure seamless navigation between screens, with options such as headers and back buttons implemented for improved user experience.
